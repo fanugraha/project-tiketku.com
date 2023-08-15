@@ -1,0 +1,10 @@
+.heading {
+  font: 700 36px/140% "Lato", sans-serif;
+  color: #363636;
+}
+
+.subHeading {
+  font: 400 16px/140% "Lato", sans-serif;
+  color: #363636;
+  opacity: 0.8;
+}

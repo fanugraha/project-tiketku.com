@@ -15,3 +15,7 @@
   font: 400 16px/150% "Lato", sans-serif;
   color: white;
 }
+
+.navbarLeft ul {
+  margin: 0;
+}

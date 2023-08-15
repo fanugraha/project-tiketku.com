@@ -14,4 +14,9 @@
 .navbarRight ul li a {
   text-decoration: none;
   font: 400 16px/150% "Lato", sans-serif;
+  color: white;
+}
+
+.navbarRight ul {
+  margin: 0;
 }

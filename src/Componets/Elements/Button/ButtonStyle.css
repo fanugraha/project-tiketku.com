@@ -13,6 +13,10 @@
   height: 40px;
 }
 
+.primary p {
+  margin: 0;
+}
+
 .secondary {
   background: #e9f5fe;
   border-radius: 10px;
@@ -25,6 +29,10 @@
   border: none;
   font: 400 16px/150% "Lato", sans-serif;
   color: #0d99ff;
+}
+
+.secondary p {
+  margin: 0;
 }
 
 .search-btn {
@@ -41,6 +49,10 @@
   gap: 8px;
 }
 
+.search-btn p {
+  margin: 0;
+}
+
 .fillter-btn {
   display: flex;
   align-items: center;
@@ -52,6 +64,10 @@
   color: white;
 }
 
+.fillter-btn p {
+  margin: 0;
+}
+
 .dropdown-btn {
   display: flex;
   align-items: center;
@@ -59,4 +75,8 @@
   gap: 6px;
   background-color: transparent;
   border: none;
+}
+
+.dropdown-btn p {
+  margin: 0;
 }
