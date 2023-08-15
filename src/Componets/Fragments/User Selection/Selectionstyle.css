@@ -1,0 +1,6 @@
+.WrapperSelection {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+  align-self: flex-start;
+}

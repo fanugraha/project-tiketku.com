@@ -1,0 +1,11 @@
+.WrapperFillter {
+  display: flex;
+  background: #0d99ff;
+  width: 434px;
+  height: 50px;
+  border-radius: 10px;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 45px;
+}

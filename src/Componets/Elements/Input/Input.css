@@ -1,0 +1,24 @@
+.medium {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 1px;
+  width: 250px;
+  height: 60px;
+  padding: 9px 20px;
+  font: 500 16px/150% "Lato", sans-serif;
+  color: #363636;
+}
+
+.tanggal {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 1px;
+  width: 250px;
+  height: 60px;
+  padding: 9px 20px;
+  font: 600 16px/150% "Lato", sans-serif;
+  color: #363636;
+  text-align: c;
+}
