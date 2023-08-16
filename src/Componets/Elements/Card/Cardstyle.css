@@ -34,3 +34,18 @@
   color: #0d99ff;
   margin-top: 16px;
 }
+
+.WrapperCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+  .WrapperCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

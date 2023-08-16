@@ -19,7 +19,7 @@
 
 .secondary {
   background: #e9f5fe;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 8px 20px 8px 20px;
   display: flex;
   flex-direction: row;
@@ -78,5 +78,25 @@
 }
 
 .dropdown-btn p {
+  margin: 0;
+}
+
+.btn-seeall {
+  background: #e9f5fe;
+  border-radius: 50px;
+  padding: 8px 20px 8px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font: 500 20px/150% "Lato", sans-serif;
+  color: #0d99ff;
+  width: 255px;
+  height: 50px;
+}
+
+.btn-seeall p {
   margin: 0;
 }

@@ -1,14 +1,15 @@
-import Card from "./Componets/Elements/Card/Card";
 import HeroSection from "./Componets/Section/Hero Section/HeroSection";
 import PromoSection from "./Componets/Section/Promo Section/PromoSection";
-import CardData from "./Componets/Elements/Card/DataCardDestinasi";
+import PopularDestinasi from "./Componets/Section/Popular Destinasi/PopularPlaceSection";
+import Villa from "./Componets/Section/Villa and Resot Section/Villa";
 
 function App() {
   return (
     <div className="MainPage">
       <HeroSection />
       <PromoSection />
-      <Card details={CardData} />
+      <PopularDestinasi />
+      <Villa />
     </div>
   );
 }

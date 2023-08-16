@@ -5,7 +5,7 @@ const Card = (props) => {
   const { details } = props;
 
   return (
-    <div>
+    <div className="container WrapperCard">
       {details.map((value, index) => (
         <div className="card" key={index}>
           <img src={value.img} alt="" />
