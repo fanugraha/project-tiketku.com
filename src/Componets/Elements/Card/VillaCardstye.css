@@ -1,0 +1,69 @@
+.wrapperCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+  .wrapperCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.cardBod p {
+  margin: 0;
+}
+
+.card {
+  border-radius: 16px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  width: 300px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 16px;
+}
+
+.place {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 10px;
+}
+
+.placeText {
+  margin: 0;
+  font: 400 16px/24px "Lato", sans-serif;
+  color: #363636;
+}
+
+.CardHeadlineVilla {
+  font: 700 20px/140% "Lato", sans-serif;
+  margin-top: 10px;
+}
+
+.cardPriceVilla {
+  font: 700 18px/140% "Lato", sans-serif;
+  color: #0d99ff;
+  margin-top: 4px;
+}
+
+.ratingwrapper {
+  display: flex;
+  gap: 8px;
+  margin-left: -5px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.rating {
+  margin: 0;
+  font: 400 16px/24px "Lato", sans-serif;
+  color: #363636;
+}

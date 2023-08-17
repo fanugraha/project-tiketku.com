@@ -1,8 +1,8 @@
-import Rating from "../../../assets/Icon & Logo/Rating";
-import bali from "../../../assets/Media/Destinasi Card Aset/bali.png";
-import Location from "../../../assets/Icon & Logo/Location.png";
-import bogor from "../../../assets/Media/Destinasi Card Aset/bogor.png";
 import flores from "../../../assets/Media/Destinasi Card Aset/flores.png";
+import Location from "../../../assets/Icon & Logo/Location.png";
+import Rating from "../../../assets/Icon & Logo/rating.png";
+import bali from "../../../assets/Media/Destinasi Card Aset/bali.png";
+import bogor from "../../../assets/Media/Destinasi Card Aset/bogor.png";
 import semarang from "../../../assets/Media/Destinasi Card Aset/semarang.png";
 
 const DataCardVilla = [
