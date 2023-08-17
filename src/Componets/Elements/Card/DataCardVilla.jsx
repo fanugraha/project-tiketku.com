@@ -22,7 +22,7 @@ const DataCardVilla = [
     location: "Kab. Gianyar",
     iconrating: Rating,
     rating: "9.5",
-    price: "Rp 800.000/malam",
+    price: "Rp 800.000/Malam",
   },
   {
     img: bogor,

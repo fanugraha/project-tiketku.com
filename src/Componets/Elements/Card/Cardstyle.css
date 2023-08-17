@@ -27,12 +27,14 @@
 .cardHeadline {
   font: 700 20px/140% "Lato", sans-serif;
   margin-top: 16px;
+  text-align: left;
 }
 
 .cardPrice {
   font: 700 18px/140% "Lato", sans-serif;
   color: #0d99ff;
   margin-top: 16px;
+  text-align: left;
 }
 
 .WrapperCard {

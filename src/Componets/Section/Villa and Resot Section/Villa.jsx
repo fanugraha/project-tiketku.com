@@ -16,6 +16,10 @@ const Villa = () => {
       <Label headlineText="Villa and Resort in Indonesia" />
       <div className="container flex gap-4">{Tag}</div>
       <VillaCard details={DataCardVilla} />
+      <Button variant="container btn-seeall mt-10">
+        <p>Lihat semua</p>
+        <img src="src\assets\Icon & Logo\Arow right.png" alt="" />
+      </Button>
     </div>
   );
 };

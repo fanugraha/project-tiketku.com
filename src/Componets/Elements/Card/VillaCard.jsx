@@ -5,7 +5,7 @@ const VillaCard = (props) => {
   return (
     <div className="container wrapperCard">
       {details.map((value, index) => (
-        <div className="card" key={index}>
+        <button className="card" key={index}>
           <img src={value.img} alt="" />
           <div className="cardBody">
             <h1 className="CardHeadlineVilla">{value.title}</h1>
@@ -19,7 +19,7 @@ const VillaCard = (props) => {
             </div>
             <p className="cardPriceVilla">{value.price}</p>
           </div>
-        </div>
+        </button>
       ))}
     </div>
   );

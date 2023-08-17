@@ -5,7 +5,7 @@ const Card = (props) => {
   const { details } = props;
 
   return (
-    <div className="container WrapperCard">
+    <button className="container WrapperCard">
       {details.map((value, index) => (
         <div className="card" key={index}>
           <img src={value.img} alt="" />
@@ -19,7 +19,7 @@ const Card = (props) => {
           </div>
         </div>
       ))}
-    </div>
+    </button>
   );
 };
 
