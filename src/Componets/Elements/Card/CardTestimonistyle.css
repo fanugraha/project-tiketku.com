@@ -1,0 +1,33 @@
+.WrapperCardTestimoni {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 50px;
+}
+
+.Card {
+  width: 380px;
+  height: 210px;
+  padding: 10px 20px;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.UserName {
+  margin: 0;
+  padding: 0;
+  color: #363636;
+  font: 700 23.04px/120% "Lato", sans-serif;
+}
+
+.Deskripsi {
+  color: #363636;
+  text-align: left;
+  font: 400 16px/180% "Lato", sans-serif;
+  margin: 0;
+  margin-top: 30px;
+}

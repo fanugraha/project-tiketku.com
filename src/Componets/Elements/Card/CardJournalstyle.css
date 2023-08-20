@@ -1,0 +1,45 @@
+.wrapperJourneyCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.CardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.JourneyCard {
+  display: flex;
+  gap: 20px;
+}
+
+.TagText {
+  color: #0d99ff;
+  text-align: left;
+  font: 600 16px/24px "Lato", sans-serif;
+}
+
+.Title {
+  color: var(--forfont, #363636);
+  text-align: left;
+  font: 600 21px/24px "Lato", sans-serif;
+  width: 277px;
+  height: 57px;
+}
+
+.Descripsi {
+  color: var(--paragraph, #767681);
+  text-align: left;
+  font: 400 16px/24px "Lato", sans-serif;
+  position: relative;
+  width: 277px;
+  height: 45px;
+}
+
+Button {
+  margin-top: 16px;
+}

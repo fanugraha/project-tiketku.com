@@ -5,9 +5,9 @@ const Card = (props) => {
   const { details } = props;
 
   return (
-    <button className="container WrapperCard">
+    <div className="container WrapperCard">
       {details.map((value, index) => (
-        <div className="card" key={index}>
+        <button className="card" key={index}>
           <img src={value.img} alt="" />
           <div className="cardBody">
             <div className="place">
@@ -17,9 +17,9 @@ const Card = (props) => {
             <p className="cardHeadline">{value.title}</p>
             <p className="cardPrice">{value.price}</p>
           </div>
-        </div>
+        </button>
       ))}
-    </button>
+    </div>
   );
 };
 
